@@ -27,7 +27,12 @@ PRODUCT_COPY_FILES := \
     device/asus/flo/init.flo.rc:root/init.flo.rc
 
 PRODUCT_PACKAGES += \
-	camera.flo
+	camera.flo \
+	com.android.future.usb.accessory
+
+#Default USB Mount
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp
 
 # NFC
 PRODUCT_PACKAGES += \
