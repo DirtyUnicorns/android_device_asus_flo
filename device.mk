@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
 	camera.flo \
 	com.android.future.usb.accessory
 
+# Boot Animation
+PRODUCT_COPY_FILES += \
+    vendor/du/bootanimations/bootanimation_1080_1920.zip:system/media/bootanimation.zip
+
 #Default USB Mount
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
