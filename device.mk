@@ -21,6 +21,7 @@
 
 PRODUCT_PROPERTY_OVERRIDES := \
     ro.carrier=wifi-only
+    ro.du.updater=flo
 
 PRODUCT_COPY_FILES := \
     device/asus/flo/fstab.flo:root/fstab.flo \
