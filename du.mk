@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
+#
 # This file includes all definitions that apply to ALL msm8960 devices, and
 # are also specific to msm8960 devices
 #
@@ -38,6 +38,3 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 # Release name
 PRODUCT_RELEASE_NAME := flo
-
-#Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_FINGERPRINT=google/razor/flo:6.0.0/MRA58K/1227136:user/release-keys PRIVATE_BUILD_DESC="razor-user 6.0.0 MRA58K 1227136 release-keys"
