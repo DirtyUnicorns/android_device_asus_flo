@@ -31,5 +31,14 @@
     <!-- Pulse stroke width -->
     <dimen name="config_pulsePathStrokeWidth">25dp</dimen>
 
-</resources>
+    <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        wifi,bt,inversion,dnd,airplane,rotation,location,cast,ambient_display,screenshot,nfc,sync,screenoff,timeout,brightness,music,reboot,battery_saver,expanded_desktop,adb_network,compass,themes,navigation_bar,ime
+    </string>
 
+    <!-- The default tiles to reset to in QuickSettings -->
+    <string name="quick_settings_tiles_reset" translatable="false">
+        wifi,bt,dnd,airplane,rotation,location,cast,themes
+    </string>
+
+</resources>
