@@ -33,5 +33,8 @@ PRODUCT_MODEL := Nexus 7 2013
 PRODUCT_MANUFACTURER := ASUS
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
-# Release name
-PRODUCT_RELEASE_NAME := flo
+# Prop overrides
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=razor \
+    BUILD_FINGERPRINT=google/razor/flo:6.0.1/MOB30X/3036618:user/release-keys \
+    PRIVATE_BUILD_DESC="razor-user 6.0.1 MOB30X 3036618 release-keys"
